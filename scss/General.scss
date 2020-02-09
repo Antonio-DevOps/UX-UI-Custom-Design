@@ -1,0 +1,199 @@
+//========================start header=======================================
+.container-logo{
+    margin-top: 2.0625rem;
+}
+.nav{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    &_list{
+    display: flex;
+    align-items: center;
+    margin-top: 3.375rem;
+    }
+    &_links{
+        margin-right: 2.3125rem;
+    }
+    &_contact{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 3.375rem;
+
+    }
+    &_info{
+        display: flex;
+        align-items: center;
+        margin-right: 1.5rem;
+    }
+}
+.img_info{
+    margin-right: .625rem;
+}
+.nav_order{
+    display: flex;
+    width: 226px;
+    height: 57px;
+    background-color: #FFBE01;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-top: 2.0625rem;
+    margin-left: 1.6875rem;
+}
+//====================End header=========================================
+//=====================Start section_1===================================
+.slider{
+    margin-left: 3.125rem;
+}
+.title{
+    &_subFunction{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    }
+    &_subImg{
+        margin-right: 0.9375rem;
+    }
+}
+.btn_offer{
+    display: flex;
+}
+.btn{
+    
+    &_btnleft{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 14.125rem;
+    height: 3.5625rem;
+    background-color: #FFBE01;
+    box-shadow: 0px 1px 4px rgba(255, 190, 1, 0.26);
+    border-radius: 5px;
+    margin-top: 1.375rem;
+    color: white;
+    margin-right: 2rem;
+}
+    &_btnright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 14.125rem;
+    height: 3.5625rem;
+    // background: #FFBE01;
+    border: 0.5px solid #FFBE01;
+    border-radius: 5px;
+    margin-top: 1.375rem;
+    color: #FFBE01;
+}
+}
+.btn_btnleft:hover{
+    background-color: white;
+    border: 0.5px solid #FFBE01;
+    color: #FFBE01;
+}
+.btn_btnright:hover{
+    background-color: #FFBE01;
+    color: white;
+}
+.sub_text{
+    display: flex;
+    margin-top: 1.25rem;
+    align-items: center;
+}
+.text_color{
+    &_general{
+        font-family: "SF UI Display Black" "sans-serif";
+        color: #DEDEDE;
+        font-style: normal;
+        font-weight: 300;
+        font-size: .875rem;
+        margin: 3px;
+    }
+    &_second{
+        font-family: "SF UI Display Black" "sans-serif";
+        color: #FFBE01;
+        font-style: normal;
+        font-weight: 300;
+        font-size: .875rem;
+    }
+}
+//=====================slide_2_buttons_Start===================================================//
+.btn{
+    
+    &_btnleft_slide2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 14.125rem;
+    height: 3.5625rem;
+    // background-color: #FFBE01;
+    border: 0.5px solid #FFBE01;
+    box-shadow: 0px 1px 4px rgba(255, 190, 1, 0.26);
+    border-radius: 5px;
+    margin-top: 1.375rem;
+    color: #FFBE01;
+    margin-right: 2rem;
+}
+    &_btnright_slide2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 14.125rem;
+    height: 3.5625rem;
+    background-color: #FFBE01;
+    // border: 0.5px solid #FFBE01;
+    border-radius: 5px;
+    margin-top: 1.375rem;
+    color:white;
+}
+}
+.btn_btnleft_slide2:hover{
+    background-color:#FFBE01;
+    border: 0.5px solid #FFBE01;
+    color: white;
+}
+.btn_btnright_slide2:hover{
+    background-color: white;
+    border: 0.5px solid #FFBE01;
+    color: #FFBE01;
+}
+//======================slide_2_finish=========================================================//
+//=====================slide_3_buttons_Start===================================================//
+.btn{
+    
+    &_btnleft_slid3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 14.125rem;
+    height: 3.5625rem;
+    border: 0.5px solid #FFBE01;
+    box-shadow: 0px 1px 4px rgba(255, 190, 1, 0.26);
+    border-radius: 5px;
+    margin-top: 1.375rem;
+    color: #FFBE01;
+    margin-right: 2rem;
+}
+    &_btnright_slide3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 14.125rem;
+    height: 3.5625rem;
+    // background: #FFBE01;
+    border: 0.5px solid #FFBE01;
+    border-radius: 5px;
+    margin-top: 1.375rem;
+    color: #FFBE01;
+}
+}
+.btn_btnleft_slid3, .btn_btnright_slid3:hover{
+    background-color: #FFBE01;
+    border: 0.5px solid #FFBE01;
+    color: whitesmoke;
+}
+//======================slide_3_finish=========================================================//
+
+//=======================Finish section_1==============================================//
