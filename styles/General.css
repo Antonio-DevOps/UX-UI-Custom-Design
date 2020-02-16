@@ -160,7 +160,39 @@
   margin-top: 1.375rem;
   color: #FFBE01; }
 
-.btn_btnleft_slid3, .btn_btnright_slid3:hover {
+.btn_btnleft_slid3:hover {
   background-color: #FFBE01;
   border: 0.5px solid #FFBE01;
   color: whitesmoke; }
+
+.btn_btnright_slide3:hover {
+  background-color: #FFBE01;
+  border: 0.5px solid #FFBE01;
+  color: whitesmoke; }
+
+.content_container {
+  height: 14.375rem;
+  border: 1px solid #DEDEDE;
+  position: relative; }
+
+.box_title {
+  position: absolute;
+  left: 2.1875rem;
+  top: 3.125rem; }
+
+.box_img {
+  position: absolute;
+  width: 2.9375rem;
+  height: 2.6925rem;
+  top: 1.25rem;
+  right: 1.25rem; }
+
+.box_par {
+  position: absolute;
+  left: 2.1875rem;
+  right: 1.125rem;
+  top: 5.875rem; }
+
+.magin_section2 {
+  margin-left: 5.125rem;
+  margin-right: 5.125rem; }
