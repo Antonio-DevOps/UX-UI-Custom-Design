@@ -204,10 +204,23 @@
 //=======================Finish section_1==============================================//
 //============================Section_2============================================================//
 .content_container{
+    // width: 381px;
+    // height: 230px;
     // width: 23.8125rem;
     height: 14.375rem;
     border: 1px solid #DEDEDE;
     position: relative;
+    &:hover{
+        // width: 23.8125rem;
+        // height: 14.375rem;
+        background-color: black;
+        transform: scale(1.2);
+        color: white;
+        z-index: 1;
+        border-radius: 10px;
+        
+    }
+
 }
 .box{
     &_title{
