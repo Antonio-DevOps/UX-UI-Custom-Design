@@ -43,8 +43,8 @@ $white: #fff;
     }
     &_order{
         display: flex;
-        width: 226px;
-        height: 57px;
+        width: 14.125rem;
+        height: 3.5625rem;
         background-color: #FFBE01;
         align-items: center;
         justify-content: center;
@@ -55,8 +55,8 @@ $white: #fff;
         color: white;
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
-        line-height: 17px;
+        font-size: .875rem;
+        line-height: 1.0625rem;
         letter-spacing: 0.1em;
     }
     &_order:hover{
@@ -267,8 +267,8 @@ $white: #fff;
     border: 0.5px solid #FFBE01;
     color: #FFBE01;
 }
-//======================slide_2_finish=========================================================//
-//=====================slide_3_buttons_Start===================================================//
+//======================slide_2_finish==============================================================//
+//=====================slide_3_buttons_Start========================================================//
 .btn{
     
     &_btnleft_slid3{
@@ -307,9 +307,9 @@ $white: #fff;
     border: 0.5px solid #FFBE01;
     color: whitesmoke;
 }
-//======================slide_3_finish=========================================================//
+//======================slide_3_finish==============================================================//
 
-//=======================Finish section_1==============================================//
+//=======================Finish section_1==========================================================//
 //============================Section_2============================================================//
 .content_container{
     // width: 381px;
@@ -394,4 +394,79 @@ $white: #fff;
     margin-left: 5.125rem;
     margin-right: 5.125rem;
 }
-//===============section_3=============================
+//===============Finish_section_2==================================================================//
+//===================================Start Section_3===============================================//
+.section_3{
+        position: relative;
+        margin-top: 7.3125rem;
+        margin-left: 5.125rem;
+        margin-right: 5.125rem;
+    &_header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Museo Sans Cyrl', "sans-serif";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 2rem;
+        line-height: 2.375rem;
+    }
+    &_text_general{
+        color: black;
+        margin-left: .625rem;
+    }
+    &_text_second{
+        color: #FFBE01;
+        margin-left: .625rem;
+        }
+
+}
+.btn_services{
+    width: 70px;
+    height: 70px;
+    font-family: 'Museo Sans Cyrl', "sans-serif";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    background-color: white;
+    border: 2px solid #FFBE01;
+    border-radius: 50%;
+    &:hover{
+        background-color: #FFBE01;
+    }
+    &_info{
+        // margin-left: 1.5625rem;
+        font-family: 'Museo Sans Cyrl', "sans-serif";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+.sub_section_services{
+    justify-content: end;
+    width: 19.15rem;
+}
+.img{
+    &_box{
+    position: relative;
+    }
+    &_plam{
+    right: -50px;
+    position: absolute;
+    width: 414px;
+    height: 440px;
+    }
+    &_boxx{
+        position: relative;
+    }
+    &_doll{
+        position: inherit;
+        right: -50px;
+        width: 492px;
+        height: 336px;
+        top: 80px;
+    }
+}
