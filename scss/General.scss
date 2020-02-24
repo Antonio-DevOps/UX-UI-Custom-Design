@@ -1,4 +1,6 @@
 //========================start header=======================================
+$red: #E1332D;
+$white: #fff;
 .container-logo{
     margin-top: 2.0625rem;
 }
@@ -7,10 +9,17 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+
     &_list{
     display: flex;
     align-items: center;
     margin-top: 3.375rem;
+    font-family: 'SF UI Display',"sans-serif";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.875rem;
+    line-height: 1.0625rem;
+
     }
     &_links{
         margin-right: 2.3125rem;
@@ -20,6 +29,11 @@
         align-items: center;
         justify-content: center;
         margin-top: 3.375rem;
+        font-family: 'SF UI Display',"sans-serif";
+        font-weight: 300;
+        font-size: .875rem;
+        line-height: 1.0625rem;
+
 
     }
     &_info{
@@ -27,25 +41,75 @@
         align-items: center;
         margin-right: 1.5rem;
     }
+    &_order{
+        display: flex;
+        width: 226px;
+        height: 57px;
+        background-color: #FFBE01;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        margin-top: 2.0625rem;
+        margin-left: 1.6875rem;
+        font-family: 'SF UI Display',"sans-serif";
+        color: white;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0.1em;
+    }
+    &_order:hover{
+        background-color: white;
+        border: 0.5px solid #FFBE01;
+        color: #FFBE01;
+    }
 }
 .img_info{
     margin-right: .625rem;
 }
-.nav_order{
-    display: flex;
-    width: 226px;
-    height: 57px;
-    background-color: #FFBE01;
-    align-items: center;
-    justify-content: center;
-    border-radius: 5px;
-    margin-top: 2.0625rem;
-    margin-left: 1.6875rem;
-}
 //====================End header=========================================
+//================Slider_general_start===================================
+.slick-dots li button:before {
+    font-family: 'slick';
+     font-size: 20px;
+     line-height: 20px;
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 20px;
+     height: 20px;
+     content: '•'; /* <-- Вот этот символ */
+     text-align: center;
+     opacity: .25;
+     color: black;
+     -webkit-font-smoothing: antialiased;
+     -moz-osx-font-smoothing: grayscale;
+   }
+
+//================Slider_general_finish==================================
 //=====================Start section_1===================================
 .slider{
     margin-left: 3.125rem;
+}
+.general_text{
+
+&_upper{
+    font-family: 'SF UI Display',"sans-serif";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    color: black;
+}
+&_lower{
+    font-family: 'SF UI Display',"sans-serif";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    color: black;
+}
 }
 .title{
     &_subFunction{
@@ -55,6 +119,36 @@
     }
     &_subImg{
         margin-right: 0.9375rem;
+    }
+    &_text1{
+        font-family: 'Museo Sans Cyrl', "sans-serif";
+        font-weight: 900;
+        font-size: 2rem;
+        line-height: 2.375rem;
+        margin-bottom: 0px;
+    }
+    &_text2{
+        font-family: 'Museo Sans Cyrl', "sans-serif";
+        font-weight: 900;
+        color: #FFBE01;
+        font-size: 2rem;
+        line-height: 2.375rem;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    &_text3{
+        font-family: 'Museo Sans Cyrl', "sans-serif";
+        font-weight: 900;
+        font-size: 2rem;
+        line-height: 2.375rem;
+        margin-top: 0px;
+    }
+    &_sub{
+        font-family: 'SF UI Display',"sans-serif";
+        font-style: normal;
+        font-weight: 200;
+        font-size: 1rem;
+        line-height: 150%;
     }
 }
 .btn_offer{
@@ -88,14 +182,28 @@
     color: #FFBE01;
 }
 }
-.btn_btnleft:hover{
+.btn_btnleft{
+    font-family: 'SF UI Display',"sans-serif";
+    font-style: normal;
+    font-weight: normal;
+    font-size: .875rem;
+    line-height: 1.0625rem;
+    &:hover{
     background-color: white;
     border: 0.5px solid #FFBE01;
     color: #FFBE01;
 }
-.btn_btnright:hover{
+}
+.btn_btnright{
+    font-family: 'SF UI Display',"sans-serif";
+    font-style: normal;
+    font-weight: normal;
+    font-size: .875rem;
+    line-height: 1.0625rem;
+    &:hover{
     background-color: #FFBE01;
     color: white;
+}
 }
 .sub_text{
     display: flex;
@@ -104,15 +212,15 @@
 }
 .text_color{
     &_general{
-        font-family: "SF UI Display Black" "sans-serif";
+        font-family: 'SF UI Display',"sans-serif";
         color: #DEDEDE;
         font-style: normal;
         font-weight: 300;
         font-size: .875rem;
-        margin: 3px;
+        margin: 0.1875rem;
     }
     &_second{
-        font-family: "SF UI Display Black" "sans-serif";
+        font-family: 'SF UI Display',"sans-serif";
         color: #FFBE01;
         font-style: normal;
         font-weight: 300;
@@ -222,8 +330,45 @@
     }
 
 }
+.prioritets_text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.generals_prioritets{
+    font-family: 'Museo Sans Cyrl', "sans-serif";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2rem;
+    line-height: 2.375rem;
+}
+.generals_prioritets_second{
+    margin-left: .6875rem;
+    color: #FFBE01;
+    font-family: 'Museo Sans Cyrl', "sans-serif";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2rem;
+    line-height: 2.375rem;
+}
+.img_block1{
+    position: absolute;
+    height: 2rem;
+    width: 2rem;
+    left: 3rem;
+    top: 2.75rem;
+}
+.box_title_block1{
+    font-family: 'Museo Sans Cyrl', "sans-serif";
+    font-weight: 900;
+    position: absolute;
+    left: 5.8125rem;
+    top: 2.5rem;
+}
 .box{
     &_title{
+        font-family: 'Museo Sans Cyrl', "sans-serif";
+        font-weight: 900;
         position: absolute;
         left: 2.1875rem;
         top: 3.125rem;
@@ -236,6 +381,8 @@
     right: 1.25rem;
     }
     &_par{
+        font-family: 'Museo Sans Cyrl', "sans-serif";
+        font-weight: 300;
         position: absolute;
         left: 2.1875rem;
         right: 1.125rem;
@@ -247,3 +394,4 @@
     margin-left: 5.125rem;
     margin-right: 5.125rem;
 }
+//===============section_3=============================

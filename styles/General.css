@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .container-logo {
   margin-top: 2.0625rem; }
 
@@ -8,35 +9,87 @@
   .nav_list {
     display: flex;
     align-items: center;
-    margin-top: 3.375rem; }
+    margin-top: 3.375rem;
+    font-family: 'SF UI Display',"sans-serif";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.875rem;
+    line-height: 1.0625rem; }
   .nav_links {
     margin-right: 2.3125rem; }
   .nav_contact {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 3.375rem; }
+    margin-top: 3.375rem;
+    font-family: 'SF UI Display',"sans-serif";
+    font-weight: 300;
+    font-size: .875rem;
+    line-height: 1.0625rem; }
   .nav_info {
     display: flex;
     align-items: center;
     margin-right: 1.5rem; }
+  .nav_order {
+    display: flex;
+    width: 226px;
+    height: 57px;
+    background-color: #FFBE01;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-top: 2.0625rem;
+    margin-left: 1.6875rem;
+    font-family: 'SF UI Display',"sans-serif";
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.1em; }
+  .nav_order:hover {
+    background-color: white;
+    border: 0.5px solid #FFBE01;
+    color: #FFBE01; }
 
 .img_info {
   margin-right: .625rem; }
 
-.nav_order {
-  display: flex;
-  width: 226px;
-  height: 57px;
-  background-color: #FFBE01;
-  align-items: center;
-  justify-content: center;
-  border-radius: 5px;
-  margin-top: 2.0625rem;
-  margin-left: 1.6875rem; }
+.slick-dots li button:before {
+  font-family: 'slick';
+  font-size: 20px;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  content: '•';
+  /* <-- Вот этот символ */
+  text-align: center;
+  opacity: .25;
+  color: black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
 
 .slider {
   margin-left: 3.125rem; }
+
+.general_text_upper {
+  font-family: 'SF UI Display',"sans-serif";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
+  color: black; }
+
+.general_text_lower {
+  font-family: 'SF UI Display',"sans-serif";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
+  color: black; }
 
 .title_subFunction {
   display: flex;
@@ -45,6 +98,36 @@
 
 .title_subImg {
   margin-right: 0.9375rem; }
+
+.title_text1 {
+  font-family: 'Museo Sans Cyrl', "sans-serif";
+  font-weight: 900;
+  font-size: 2rem;
+  line-height: 2.375rem;
+  margin-bottom: 0px; }
+
+.title_text2 {
+  font-family: 'Museo Sans Cyrl', "sans-serif";
+  font-weight: 900;
+  color: #FFBE01;
+  font-size: 2rem;
+  line-height: 2.375rem;
+  margin-top: 0px;
+  margin-bottom: 0px; }
+
+.title_text3 {
+  font-family: 'Museo Sans Cyrl', "sans-serif";
+  font-weight: 900;
+  font-size: 2rem;
+  line-height: 2.375rem;
+  margin-top: 0px; }
+
+.title_sub {
+  font-family: 'SF UI Display',"sans-serif";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 1rem;
+  line-height: 150%; }
 
 .btn_offer {
   display: flex; }
@@ -73,14 +156,26 @@
   margin-top: 1.375rem;
   color: #FFBE01; }
 
-.btn_btnleft:hover {
-  background-color: white;
-  border: 0.5px solid #FFBE01;
-  color: #FFBE01; }
+.btn_btnleft {
+  font-family: 'SF UI Display',"sans-serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: .875rem;
+  line-height: 1.0625rem; }
+  .btn_btnleft:hover {
+    background-color: white;
+    border: 0.5px solid #FFBE01;
+    color: #FFBE01; }
 
-.btn_btnright:hover {
-  background-color: #FFBE01;
-  color: white; }
+.btn_btnright {
+  font-family: 'SF UI Display',"sans-serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: .875rem;
+  line-height: 1.0625rem; }
+  .btn_btnright:hover {
+    background-color: #FFBE01;
+    color: white; }
 
 .sub_text {
   display: flex;
@@ -88,15 +183,15 @@
   align-items: center; }
 
 .text_color_general {
-  font-family: "SF UI Display Black" "sans-serif";
+  font-family: 'SF UI Display',"sans-serif";
   color: #DEDEDE;
   font-style: normal;
   font-weight: 300;
   font-size: .875rem;
-  margin: 3px; }
+  margin: 0.1875rem; }
 
 .text_color_second {
-  font-family: "SF UI Display Black" "sans-serif";
+  font-family: 'SF UI Display',"sans-serif";
   color: #FFBE01;
   font-style: normal;
   font-weight: 300;
@@ -181,7 +276,44 @@
     z-index: 1;
     border-radius: 10px; }
 
+.prioritets_text {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.generals_prioritets {
+  font-family: 'Museo Sans Cyrl', "sans-serif";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 2rem;
+  line-height: 2.375rem; }
+
+.generals_prioritets_second {
+  margin-left: .6875rem;
+  color: #FFBE01;
+  font-family: 'Museo Sans Cyrl', "sans-serif";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 2rem;
+  line-height: 2.375rem; }
+
+.img_block1 {
+  position: absolute;
+  height: 2rem;
+  width: 2rem;
+  left: 3rem;
+  top: 2.75rem; }
+
+.box_title_block1 {
+  font-family: 'Museo Sans Cyrl', "sans-serif";
+  font-weight: 900;
+  position: absolute;
+  left: 5.8125rem;
+  top: 2.5rem; }
+
 .box_title {
+  font-family: 'Museo Sans Cyrl', "sans-serif";
+  font-weight: 900;
   position: absolute;
   left: 2.1875rem;
   top: 3.125rem; }
@@ -194,6 +326,8 @@
   right: 1.25rem; }
 
 .box_par {
+  font-family: 'Museo Sans Cyrl', "sans-serif";
+  font-weight: 300;
   position: absolute;
   left: 2.1875rem;
   right: 1.125rem;
