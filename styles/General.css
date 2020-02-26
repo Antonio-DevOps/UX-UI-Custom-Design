@@ -275,7 +275,7 @@
     color: white;
     z-index: 1;
     border-radius: 10px;
-    transition: 2s; }
+    transition: 0.7s; }
 
 .prioritets_text {
   display: flex;
