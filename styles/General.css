@@ -402,3 +402,32 @@
   width: 492px;
   height: 336px;
   top: 80px; }
+
+.button_for_price {
+  position: relative;
+  height: 9.375rem;
+  width: 100%; }
+
+.bnt_price {
+  position: absolute;
+  right: 50%; }
+
+#section_4 {
+  margin-top: 1.875rem;
+  background-color: black;
+  position: relative; }
+
+.img_background_section_4 {
+  position: absolute;
+  right: 0;
+  bottom: -.625rem;
+  width: 812.13px;
+  height: 779.88px; }
+
+.title_section_4 {
+  margin-top: 48px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin-left: 24.375rem;
+  height: 100vh; }
