@@ -7,10 +7,11 @@ $gap: 15px;
 $col: 12;
 $colWidth: 100% / $col;
 $title_News: whitesmoke;
+$general_color:#FFBE01;
+// $general_color:purple;
 
 $primaryColor: #303841;
 $secondaryColor: #4e4e4e;
-$yellow: #ffc12d;
 $colorForText: black;
 
 $btnBorderColor: $primaryColor;
@@ -29,7 +30,6 @@ $btnBorderColor: $primaryColor;
     width: 100%;
     margin: 0 auto;
     padding: 0 $gap;
-    // background-color: $yellow;
 
 }
 

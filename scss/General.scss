@@ -45,10 +45,10 @@ $white: #fff;
         display: flex;
         width: 14.125rem;
         height: 3.5625rem;
-        background-color: #FFBE01;
+        background-color: $general_color;
         align-items: center;
         justify-content: center;
-        border-radius: 5px;
+        border-radius: .3125rem;
         margin-top: 2.0625rem;
         margin-left: 1.6875rem;
         font-family: 'SF UI Display',"sans-serif";
@@ -61,8 +61,8 @@ $white: #fff;
     }
     &_order:hover{
         background-color: white;
-        border: 0.5px solid #FFBE01;
-        color: #FFBE01;
+        border: 0.5px solid $general_color;
+        color: $general_color;
     }
 }
 .img_info{
@@ -72,13 +72,13 @@ $white: #fff;
 //================Slider_general_start===================================
 .slick-dots li button:before {
     font-family: 'slick';
-     font-size: 20px;
-     line-height: 20px;
+     font-size: 1.25rem;
+     line-height: 1.25rem;
      position: absolute;
      top: 0;
      left: 0;
-     width: 20px;
-     height: 20px;
+     width: 1.25rem;
+     height: 1.25rem;
      content: '•'; /* <-- Вот этот символ */
      text-align: center;
      opacity: .25;
@@ -91,6 +91,9 @@ $white: #fff;
 //=====================Start section_1===================================
 .slider{
     margin-left: 3.125rem;
+}
+.slick-dots li button:before{
+    font-size: 20px;
 }
 .general_text{
 
@@ -130,7 +133,7 @@ $white: #fff;
     &_text2{
         font-family: 'Museo Sans Cyrl', "sans-serif";
         font-weight: 900;
-        color: #FFBE01;
+        color: $general_color;
         font-size: 2rem;
         line-height: 2.375rem;
         margin-top: 0px;
@@ -162,7 +165,7 @@ $white: #fff;
     justify-content: center;
     width: 14.125rem;
     height: 3.5625rem;
-    background-color: #FFBE01;
+    background-color: $general_color;
     box-shadow: 0px 1px 4px rgba(255, 190, 1, 0.26);
     border-radius: 5px;
     margin-top: 1.375rem;
@@ -175,11 +178,10 @@ $white: #fff;
     justify-content: center;
     width: 14.125rem;
     height: 3.5625rem;
-    // background: #FFBE01;
-    border: 0.5px solid #FFBE01;
+    border: 0.5px solid $general_color;
     border-radius: 5px;
     margin-top: 1.375rem;
-    color: #FFBE01;
+    color: $general_color;
 }
 }
 .btn_btnleft{
@@ -190,8 +192,8 @@ $white: #fff;
     line-height: 1.0625rem;
     &:hover{
     background-color: white;
-    border: 0.5px solid #FFBE01;
-    color: #FFBE01;
+    border: 0.5px solid $general_color;
+    color: $general_color;
 }
 }
 .btn_btnright{
@@ -201,7 +203,7 @@ $white: #fff;
     font-size: .875rem;
     line-height: 1.0625rem;
     &:hover{
-    background-color: #FFBE01;
+    background-color: $general_color;
     color: white;
 }
 }
@@ -221,7 +223,7 @@ $white: #fff;
     }
     &_second{
         font-family: 'SF UI Display',"sans-serif";
-        color: #FFBE01;
+        color: $general_color;
         font-style: normal;
         font-weight: 300;
         font-size: .875rem;
@@ -236,12 +238,11 @@ $white: #fff;
     justify-content: center;
     width: 14.125rem;
     height: 3.5625rem;
-    // background-color: #FFBE01;
-    border: 0.5px solid #FFBE01;
+    border: 0.5px solid $general_color;
     box-shadow: 0px 1px 4px rgba(255, 190, 1, 0.26);
     border-radius: 5px;
     margin-top: 1.375rem;
-    color: #FFBE01;
+    color: $general_color;
     margin-right: 2rem;
 }
     &_btnright_slide2{
@@ -250,22 +251,21 @@ $white: #fff;
     justify-content: center;
     width: 14.125rem;
     height: 3.5625rem;
-    background-color: #FFBE01;
-    // border: 0.5px solid #FFBE01;
+    background-color: $general_color;
     border-radius: 5px;
     margin-top: 1.375rem;
     color:white;
 }
 }
 .btn_btnleft_slide2:hover{
-    background-color:#FFBE01;
-    border: 0.5px solid #FFBE01;
+    background-color:$general_color;
+    border: 0.5px solid $general_color;
     color: white;
 }
 .btn_btnright_slide2:hover{
     background-color: white;
-    border: 0.5px solid #FFBE01;
-    color: #FFBE01;
+    border: 0.5px solid $general_color;
+    color: $general_color;
 }
 //======================slide_2_finish==============================================================//
 //=====================slide_3_buttons_Start========================================================//
@@ -277,11 +277,11 @@ $white: #fff;
     justify-content: center;
     width: 14.125rem;
     height: 3.5625rem;
-    border: 0.5px solid #FFBE01;
+    border: 0.5px solid $general_color;
     box-shadow: 0px 1px 4px rgba(255, 190, 1, 0.26);
     border-radius: 5px;
     margin-top: 1.375rem;
-    color: #FFBE01;
+    color: $general_color;
     margin-right: 2rem;
 }
     &_btnright_slide3{
@@ -290,21 +290,20 @@ $white: #fff;
     justify-content: center;
     width: 14.125rem;
     height: 3.5625rem;
-    // background: #FFBE01;
-    border: 0.5px solid #FFBE01;
+    border: 0.5px solid $general_color;
     border-radius: 5px;
     margin-top: 1.375rem;
-    color: #FFBE01;
+    color: $general_color;
 }
 }
 .btn_btnleft_slid3:hover{
-    background-color: #FFBE01;
-    border: 0.5px solid #FFBE01;
+    background-color: $general_color;
+    border: 0.5px solid $general_color;
     color: whitesmoke;
 }
 .btn_btnright_slide3:hover{
-    background-color: #FFBE01;
-    border: 0.5px solid #FFBE01;
+    background-color: $general_color;
+    border: 0.5px solid $general_color;
     color: whitesmoke;
 }
 //======================slide_3_finish==============================================================//
@@ -345,7 +344,7 @@ $white: #fff;
 }
 .generals_prioritets_second{
     margin-left: .6875rem;
-    color: #FFBE01;
+    color: $general_color;
     font-family: 'Museo Sans Cyrl', "sans-serif";
     font-style: normal;
     font-weight: 900;
@@ -416,7 +415,7 @@ $white: #fff;
         margin-left: .625rem;
     }
     &_text_second{
-        color: #FFBE01;
+        color: $general_color;
         margin-left: .625rem;
         }
 
@@ -431,10 +430,10 @@ $white: #fff;
     line-height: 22px;
     letter-spacing: 0.1em;
     background-color: white;
-    border: 2px solid #FFBE01;
+    border: 2px solid $general_color;
     border-radius: 50%;
     &:hover{
-        background-color: #FFBE01;
+        background-color: $general_color;
     }
     &_info{
         // margin-left: 1.5625rem;
@@ -490,7 +489,7 @@ $white: #fff;
 
     position: absolute;
     right: 0;
-    bottom: -.625rem;
+    top: 5.375rem;
     width: 812.13px;
     height: 779.88px;
 }
@@ -516,7 +515,7 @@ $white: #fff;
     font-weight: 800;
     font-size: 32px;
     line-height: 38px;
-    color: #FFBE01;
+    color: $general_color;
     }
 }
 .contaiver{
@@ -529,6 +528,7 @@ $white: #fff;
     &_boxAdvantages{
     color: white;
     flex-direction: column;
+    padding-right: 0px;
     }
 }
 .box{
@@ -541,7 +541,7 @@ $white: #fff;
     height: 48px;
     position: absolute;
     left: 0;
-    border-left: 3px solid #FFBE01;
+    border-left: 3px solid $general_color;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -570,9 +570,9 @@ $white: #fff;
 }
 .box_inform{
     display: block;
-    width: 20px;
-    height: 20px;
-    background-color: #FFBE01;
+    width: 1.25rem;
+    height: 1.25rem;
+    background-color: $general_color;
     content: "";
     &_block1{
         margin-bottom: 105px;
@@ -584,4 +584,45 @@ $white: #fff;
         margin-bottom: 129px;
     }
 }
+.container{
+    &_boxRight{
+        color: white;
+        display: block;
+        padding-left: 0px;
+    }
+    &_withContant{
+    display: flex;
+    position: absolute;
+    right: 30%;
+    align-items: flex-end;
+    }
+    &_1{
+    top: 25%;
+    }
+    &_2{
+    top: 36%;
+    }
+    &_3{
+    top: 46%;
+    }
+    &_4{
+    top: 63%; 
+    }
+    &_boxs{
+    width: 1.25rem;
+    height: 1.25rem;
+    background-color: $general_color;
+    content: "";
+    }
+    &_withText{
+    width: 41.25rem;
+    margin-left: 2.5rem;
+    font-family: SF UI Display;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 150%;
+    }
+}
 //====================================Finish Section_4==========================================//
+
