@@ -16,10 +16,6 @@ $colorForText: black;
 
 $btnBorderColor: $primaryColor;
 
-
-*{
-    box-sizing: border-box
-}
 .adapvite_container{
     max-width: 1920px;
     width: 100%;
@@ -188,6 +184,44 @@ $btnBorderColor: $primaryColor;
     a{
         color: greenyellow;
     }
+    .sub_section_services{
+        margin-left: -30px;
+        padding-left: 0;
+    }
+    .layout_sv{
+        width: 120px;
+      }
+    // .container_withContant_sv{
+    //     right: 9%!important;
+    // }
+    .img_background_section_4_sv{
+        transform: scale(0.8);
+        right: -70px!important;
+        top: 5rem!important;
+    }
+    // .contaiver_advantages_sv{
+    //     min-height: 37.5rem!important;
+    // }
+    .container{
+        &_withContant_sv{
+        display: flex;
+        position: absolute;
+        right: 9%!important;
+        align-items: flex-end;
+        }
+        // &_1_sv{
+        // top: 30%!important;
+        // }
+        // &_2_sv{
+        // top: 48%!important;
+        // }
+        // &_3_sv{
+        // top: 63%!important;
+        // }
+        // &_4_sv{
+        // top: 83%!important; 
+        // }
+    }
 }
 @media screen and (max-width: 1337px){
     a{
@@ -199,6 +233,17 @@ $btnBorderColor: $primaryColor;
     a{
         color:red;
     }
+}
+@media screen and (max-width: 1440px){
+    a{
+        color: greenyellow;
+    }
+    .container_withContant_sd{
+        right: 10.25rem !important;
+    }
+    .layout_sd{
+        width: 120px;
+      }
 }
 @media screen and (max-width: 1920px){
     a{

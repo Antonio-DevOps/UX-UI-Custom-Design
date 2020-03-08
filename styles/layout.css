@@ -150,7 +150,18 @@
 
 @media screen and (max-width: 1280px) {
   a {
-    color: greenyellow; } }
+    color: greenyellow; 
+  } 
+  .sub_section_services{
+    margin-left: -30px;
+    padding-left: 0;
+}
+.layout_sv{
+  width: 120px;
+}
+/* .container_withContant_sv{
+  right: 9% !important;} */
+  }
 
 @media screen and (max-width: 1337px) {
   a {

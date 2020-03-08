@@ -1,7 +1,4 @@
 @charset "UTF-8";
-* {
-  box-sizing: border-box; }
-
 .adapvite_container {
   max-width: 1920px;
   width: 100%;
@@ -151,7 +148,21 @@
 
 @media screen and (max-width: 1280px) {
   a {
-    color: greenyellow; } }
+    color: greenyellow; }
+  .sub_section_services {
+    margin-left: -30px;
+    padding-left: 0; }
+  .layout_sv {
+    width: 120px; }
+  .img_background_section_4_sv {
+    transform: scale(0.8);
+    right: -70px !important;
+    top: 5rem !important; }
+  .container_withContant_sv {
+    display: flex;
+    position: absolute;
+    right: 9% !important;
+    align-items: flex-end; } }
 
 @media screen and (max-width: 1337px) {
   a {
@@ -160,6 +171,14 @@
 @media screen and (max-width: 1366px) {
   a {
     color: red; } }
+
+@media screen and (max-width: 1440px) {
+  a {
+    color: greenyellow; }
+  .container_withContant_sd {
+    right: 10.25rem !important; }
+  .layout_sd {
+    width: 120px; } }
 
 @media screen and (max-width: 1920px) {
   a {
@@ -688,9 +707,11 @@ video {
   right: 50%; }
 
 #section_4 {
+  height: 100vh;
   margin-top: 1.875rem;
   background-color: black;
-  position: relative; }
+  position: relative;
+  padding-bottom: 3rem; }
 
 .img_background_section_4 {
   position: absolute;
@@ -721,13 +742,13 @@ video {
   line-height: 38px;
   color: #FFBE01; }
 
-.contaiver_advantages {
+.container_advantages {
   margin-top: 2.625rem;
-  height: 100vh;
+  min-height: 37.5rem;
   border-left: .5px solid #282828;
   margin-left: 5.375rem; }
 
-.contaiver_boxAdvantages {
+.container_boxAdvantages {
   color: white;
   flex-direction: column;
   padding-right: 0px; }
@@ -784,20 +805,20 @@ video {
 .container_withContant {
   display: flex;
   position: absolute;
-  right: 30%;
+  right: 24.25rem;
   align-items: flex-end; }
 
 .container_1 {
-  top: 25%; }
+  top: 16.4375rem; }
 
 .container_2 {
-  top: 36%; }
+  top: 26.25rem; }
 
 .container_3 {
-  top: 46%; }
+  top: 33.5625rem; }
 
 .container_4 {
-  top: 63%; }
+  top: 42.875rem; }
 
 .container_boxs {
   width: 1.25rem;

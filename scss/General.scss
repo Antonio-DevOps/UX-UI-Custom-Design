@@ -481,9 +481,12 @@ $white: #fff;
 //====================================Finish Section_3===========================================//
 //====================================Start Section_4============================================//
 #section_4{
+    height: 100vh;
     margin-top: 1.875rem;
     background-color: black;
     position: relative;
+    padding-bottom: 3rem;
+    
 }
 .img_background_section_4{
 
@@ -518,10 +521,11 @@ $white: #fff;
     color: $general_color;
     }
 }
-.contaiver{
+.container{
     &_advantages{
     margin-top: 2.625rem;
-    height: 100vh;
+    // height: 100vh;
+    min-height: 37.5rem;
     border-left: .5px solid #282828;
     margin-left: 5.375rem;
     }
@@ -593,20 +597,20 @@ $white: #fff;
     &_withContant{
     display: flex;
     position: absolute;
-    right: 30%;
+    right: 24.25rem;
     align-items: flex-end;
     }
     &_1{
-    top: 25%;
+    top: 16.4375rem;
     }
     &_2{
-    top: 36%;
+    top: 26.25rem;
     }
     &_3{
-    top: 46%;
+    top: 33.5625rem;
     }
     &_4{
-    top: 63%; 
+    top: 42.875rem; 
     }
     &_boxs{
     width: 1.25rem;
