@@ -478,6 +478,40 @@ $white: #fff;
     position: absolute;
     right: 50%;
 }
+.servicelist_si{
+position: absolute;
+left: 0;
+font-family: Museo Sans Cyrl;
+font-size: .875rem;
+line-height: 1.0625rem;
+letter-spacing: 0.1em;
+}
+.service{
+margin-bottom: 1rem;
+width: 380px;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+}
+.nomber_service{
+font-size: 10px;
+width: 30px;
+height: 30px;
+font-family: 'Museo Sans Cyrl', "sans-serif";
+font-style: normal;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0.1em;
+background-color: white;
+border: 2px solid #FFBE01;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.name_service{
+    margin-left: 1rem;
+}
 //====================================Finish Section_3===========================================//
 //====================================Start Section_4============================================//
 #section_4{
