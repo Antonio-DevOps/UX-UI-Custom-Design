@@ -164,6 +164,7 @@ $white: #fff;
 }
 .burger-menu_active .burger-menu_overlay{
     display: block;
+    transition: .5s;
 }
 .nav_order_subMenu{
     display: flex;

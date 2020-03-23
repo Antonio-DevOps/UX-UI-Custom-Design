@@ -95,21 +95,31 @@ $btnBorderColor: $primaryColor;
         // background-color: $yellow;
     
     }
-    .title__inform_gen{
-        display: none;
+    // ================================section_2 start================================
+    .prioritets_text-sf{
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    text-align: center;
     }
+    .generals_prioritets_second-sf{
+        margin-left: 0;
+    }
+    // .title__inform_gen{
+    //     display: none;
+    // }
     .burger-menu_button {
         display: block !important;
     }
-    #section_general{
-        max-width: 414px;
-        width: 100%;
-        height: 75vh;
-        background-image: url(../img/main_hero_homepage_desktop414.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        overflow: hidden;
-    }
+    // #section_general{
+    //     max-width: 414px;
+    //     width: 100%;
+    //     height: 75vh;
+    //     background-image: url(../img/main_hero_homepage_desktop414.jpg);
+    //     background-repeat: no-repeat;
+    //     background-size: cover;
+    //     overflow: hidden;
+    // }
     .hidden-sf{
         display: none !important;
     }
