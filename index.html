@@ -16,17 +16,17 @@
 </head>
 <body>
     <header class="container nav">
-        <div class="container-logo">
+        <div class="container-logo hidden-sm">
             <a href="#"><img src="img/logo.svg" alt="Logo"> 
             </a>
         </div>
-        <ul class="nav_list">
-            <li class="nav_links"><a href="#" target="_blank" rel="noopener noreferrer">О нас</a></li>
-            <li class="nav_links"><a href="#" target="_blank" rel="noopener noreferrer">Преимущества</a></li>
-            <li class="nav_links"><a href="#" target="_blank" rel="noopener noreferrer">Услуги</a></li>
-            <li class="nav_links"><a href="#" target="_blank" rel="noopener noreferrer">Контакты</a></li>
+        <ul class="nav_list hidden-sm">
+            <li class="nav_links"><a href="#section_4" class="arrowGen" rel="noopener noreferrer">О нас</a></li>
+            <li class="nav_links"><a href="#section_2" class="arrowGen" rel="noopener noreferrer">Преимущества</a></li>
+            <li class="nav_links"><a href="#section_3" class="arrowGen" rel="noopener noreferrer">Услуги</a></li>
+            <li class="nav_links"><a href="#" rel="noopener noreferrer">Контакты</a></li>
         </ul>
-        <ul class="nav_contact">
+        <ul class="nav_contact hidden-sm">
             <li class="nav_info">
             <img src="img/email.svg" alt="Email" class="img_info" >
             <a href="#"> khwk88@gmail.com</a></li>
@@ -34,11 +34,35 @@
             <img src="img/fone.svg" alt="Mobile" class="img_info" >
             <a href="#"> +38 (095) 492-70-83</a></li>
         </ul>
-        <a href="#" class="nav_order">Оставить заявку</a>
+        <a href="#" class="nav_order hidden-sm">Оставить заявку</a>
+        <!-- ===========================Mobile_nav======================== -->
+        <div class="burger-menu hidden-sn">
+            <a href="#" class="burger-menu_button">
+                <img src="img/logo.svg" alt="Logo">
+                <!-- <span class="burger-menu_lines"></span> -->
+            </a>
+            <nav class="burger_menu__nav">
+                <a href="#section_4" class="burger_menu__link arrowGen">О нас</a>
+                <a href="#section_2" class="burger_menu__link arrowGen">Преимущества</a>
+                <a href="#section_3" class="burger_menu__link arrowGen">Услуги</a>
+                <a href="#" class="burger_menu__link">Контакты:</a>
+                    <ul class="nav_contact">
+                        <li class="nav_info">
+                        <img src="img/email.svg" alt="Email" class="img_info" >
+                        <a href="#"> khwk88@gmail.com</a></li>
+                        <li class="nav_info">
+                        <img src="img/fone.svg" alt="Mobile" class="img_info" >
+                        <a href="#"> +38 (095) 492-70-83</a></li>
+                    </ul>
+                <a href="#" class="burger_menu__link nav_order_subMenu">Оставить заявку</a>
+                <!-- <a href="#" class="burger_menu__link">Section5</a> -->
+            </nav>
+            <div class="burger-menu_overlay"></div>
+        </div>
     </header>
     <div id="section_1" class="container hero">
         <div class="container ba-row flex">
-            <div class="ba-col-6">
+            <div class="ba-col-si-12 ba-col-md-12 ba-col-6">
                 <div class="ba-col-12 fade">
                     <div class="slider">
                         <div class="title_slider">
@@ -117,7 +141,7 @@
                     </div>
                 </div>
             </div>
-            <div class="ba-col-6">
+            <div class="ba-col-6 hidden-sm">
                 <div class="box"><img src="img/general pictr.svg" alt="general pictr"></div>
             </div>
         </div>
@@ -127,7 +151,52 @@
             <h3 class="generals_prioritets">НАШИ КЛЮЧЕВЫЕ</h3>
             <h3 class="generals_prioritets_second">ПРЕИМУЩЕСТВА</h3>
         </div>
-        <div class="ba-row magin_section2">
+        <ul class="accordion-menu hidden-sn">
+            <li>
+              <div class="dropdownlink"> Дизайн</div>
+                <div class="box_contant submenuItems">
+                    <img class="img_block1" src="img/block1.svg" alt="img_mobil">
+                    <img  class="box_img" src="img/Group.svg" alt="icon">
+                    <p class="box_par">Создание красивых сайтов с уникальным дизайном и приятной анимецией</p>
+                </div>
+            </li>
+            <li>
+                <div class="dropdownlink">UI/UX</div>
+                  <div class="box_contant submenuItems">
+                    <img  class="box_img" src="img/Group.svg" alt="icon">
+                    <p class="box_par">Проектирование интуитивно понятных структур и интерфейсов</p>
+                  </div>
+            </li>
+            <li>
+              <div class="dropdownlink"> Аккуратность</div>
+              <div class="box_contant submenuItems">
+                <img  class="box_img" src="img/Group.svg" alt="icon">
+                <p class="box_par">Программирование чистого кода без скрытого мусора под капотом</p>
+              </div>
+            </li>
+            <li>
+                <div class="dropdownlink">Цены</div>
+                <div class="box_contant submenuItems">
+                  <img  class="box_img" src="img/Group.svg" alt="icon">
+                  <p class="box_par"> По сравнению с другими, у нас вполне адекватный прайс, который подойдет каждому, кто хочет открыть свой бизнес</p>
+                </div>
+            </li>
+            <li>
+                <div class="dropdownlink">Пунктуальность</div>
+                <div class="box_contant submenuItems">
+                  <img  class="box_img" src="img/Group.svg" alt="icon">
+                  <p class="box_par">Сдача проектов четко в срок без нарушения дедлайнов</p>
+                </div>
+            </li>
+            <li>
+                <div class="dropdownlink">Гибкость</div>
+                <div class="box_contant submenuItems">
+                <img  class="box_img" src="img/Group.svg" alt="icon">
+                <p class="box_par">Программирование чистого кода без скрытого мусора под капотом</p>
+                </div>
+            </li>
+          </ul>
+        <div class="ba-row magin_section2 hidden-si">
             <div class="ba-col-4">
                 <div class="box content_container">
                     <div class="box_contant">
@@ -158,7 +227,7 @@
                     </div>
                 </div>
         </div>
-        <div class="ba-row magin_section2">
+        <div class="ba-row magin_section2 hidden-si">
             <div class="ba-col-4">
                 <div class="box content_container">
                     <div class="box_contant">
@@ -352,26 +421,26 @@
                     <a href="#" class="box_advantages box_advantages_btn1">
                     <span class=" box_advantagesText box_advantagesText_1">Исследование рынка</span>
                 </a>
-                <div class="container_withContant container_1_si position_si_1">
+                <div class="container_withContant container_1_si position_si_1 hidden-sn">
                    <span class="container_withText container_withText_si">Выполняем коммерчиский мониторинг предпринимательской деятельности, конкурентов, потребителей и составляем рабочую концепцию проекта. 
                     Создаем большую социальную квовлеченность и конверсию до 15%.</span>
                 </div>
                 <a href="#" class="box_advantages box_advantages_btn2">
                     <span class=" box_advantagesText box_advantagesText_2">Разработка дизайна</span>
                 </a>
-                <div class="container_withContant container_1_si position_si_2">
+                <div class="container_withContant container_1_si position_si_2 hidden-sn">
                     <span class="container_withText container_withText_si">60% времени работы над проектом мы закладываем в грамотное и профессиональное UI/UX-проектирование и дизайн интерфейса каждой страницы</span>
                  </div>
                 <a href="#" class="box_advantages box_advantages_btn3">
                     <span class=" box_advantagesText box_advantagesText_3">Верстка и адаптация</span>
                 </a>
-                <div class="container_withContant container_1_si position_si_3">
+                <div class="container_withContant container_1_si position_si_3 hidden-sn">
                     <span class="container_withText container_withText_si"> Мы шагаем в ногу со временем и адаптируем ваш сайт под существующие электронные гаджеты, что бы клиентам компании было удобно совершать покупки не только с компьютера, но и с мобильных устройств</span>
                  </div>
                 <a href="#" class="box_advantages box_advantages_btn4">
                     <span class="box_advantagesText box_advantagesText_4">Удобный интерфейс</span>
                 </a>
-                <div class="container_withContant container_1_si position_si_4">
+                <div class="container_withContant container_1_si position_si_4 hidden-sn">
                     <span class="container_withText container_withText_si">Интерфейс вашего сайта будет продуман настолько, насколько это возможно. Каждый элемент находится на своем месте, клиентам компании будет удобно пользоваться сайтом.</span>
                  </div>
                 </div>
@@ -407,6 +476,7 @@
         </div>
     </div>
     </div>
+
 </body>
 <script src="js/jquery-3.4.1.min.js"></script>
 <script src="js/slick.js"></script>

@@ -67,7 +67,121 @@ $white: #fff;
 }
 .img_info{
     margin-right: .625rem;
+    border-radius: 50%;
 }
+//================================Mobile header============================
+.burger-menu_button{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 30;
+    width: 57px;
+    height: 57px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    // &:hover{
+    //     filter: brightness(0.7);
+    // }
+}
+.burger-menu_lines,
+.burger-menu_lines::after,
+.burger-menu_lines::before{
+    position: absolute;
+    width: 40px;
+    height: 6px;
+    background-color: white;
+    &:hover{
+        filter: brightness(0.7);
+    }
+}
+.burger-menu_lines{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    &:before{
+    content: "";
+    top: -12px;
+}
+    &:after{
+    content: "";
+    top: 12px;
+}
+}
+.burger-menu_active .burger-menu_button{
+    right: 0;
+}
+.burger-menu_active .burger-menu_lines{
+    background-color: transparent;
+
+    &:before{
+        top: 0;
+        transform: rotate(45deg);
+    }
+    &:after{
+        top: 0;
+        transform: rotate(-45deg);
+    }
+}
+.burger_menu__nav{
+    padding-top: 80px;
+    position: fixed;
+    z-index: 20;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: whitesmoke;
+    overflow-y: auto;
+    color: $general_color;
+    right: -100%;
+}
+.burger-menu_active .burger_menu__nav{
+    right: 0;
+    top: 0;
+    transition: .5s;
+}
+.burger_menu__link{
+    padding: 30px;
+    font-family: 'SF UI Display',"sans-serif";
+    font-size: 2rem;
+    text-decoration: none;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: $general_color;
+    &:hover{
+    filter: brightness(0.7);
+    }
+}
+.burger-menu_overlay{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+}
+.burger-menu_active .burger-menu_overlay{
+    display: block;
+}
+.nav_order_subMenu{
+    display: flex;
+    background-color: $general_color;
+    align-items: center;
+    justify-content: center;
+    border-radius: .3125rem;
+    margin-top: 2.0625rem;
+    margin-left: 0;
+    font-family: 'SF UI Display',"sans-serif";
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.875rem;
+    line-height: 1.0625rem;
+    letter-spacing: 0.1em;
+}
+//================================End_Mobile_header========================
 //====================End header=========================================
 //================Slider_general_start===================================
 .slick-dots li button:before {
@@ -314,6 +428,7 @@ $white: #fff;
     // width: 381px;
     // height: 230px;
     // width: 23.8125rem;
+    cursor: pointer;
     height: 14.375rem;
     border: 1px solid #DEDEDE;
     position: relative;
@@ -394,6 +509,75 @@ $white: #fff;
     margin-left: 5.125rem;
     margin-right: 5.125rem;
 }
+// ================================Mobile_section=====================================================
+  .accordion-menu {
+    width: 100%;
+    max-width: 668px;
+    margin: 20px auto 20px;
+    background: white;
+    border-radius: 4px;
+    text-align: center;
+    font-family: 'Museo Sans Cyrl', "sans-serif";
+    font-weight: 500;
+    padding: inherit;
+    // width: 100%;
+    // max-width: 350px;
+    // margin: 60px auto 20px;
+    // background: #fff;
+    // border-radius: 4px;
+  }
+  .accordion-menu li.open .dropdownlink {
+    color: $general_color;
+  }
+  .accordion-menu li:last-child .dropdownlink {
+    border-bottom: 0;
+  }
+  .dropdownlink {
+    cursor: pointer;
+    display: block;
+    padding: 15px 15px 15px 45px;
+    font-size: 18px;
+    border-bottom: 1px solid #ccc;
+    color: #212121;
+    position: relative;
+    transition: all 0.4s ease-out;
+    font-size: 1.3rem;
+    i {
+      position: absolute;
+      top: 17px;
+      left: 16px;
+    }
+    .fa-chevron-down {
+      right: 12px;
+      left: auto;
+    }
+  }
+  
+  .submenuItems {
+    display: none;
+    height: 262px;
+    position: relative;
+    margin: 0px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    li {
+      border-bottom: 1px solid #B6B6B6;
+    }
+  }
+  
+  .submenuItems a {
+    display: block;
+    color: #727272;
+    padding: 12px 12px 12px 45px;
+    transition: all 0.4s ease-out;
+    &:hover {
+      background-color: #CDDC39;
+      color: #fff;
+    }
+  }
+// ================================Mobile_section_finish==============================================
 //===============Finish_section_2==================================================================//
 //===================================Start Section_3===============================================//
 .section_3{
@@ -503,7 +687,7 @@ font-weight: 600;
 line-height: 22px;
 letter-spacing: 0.1em;
 background-color: white;
-border: 2px solid #FFBE01;
+border: 2px solid $general_color;
 border-radius: 50%;
 display: flex;
 align-items: center;
@@ -601,6 +785,9 @@ justify-content: center;
     }
     &_btn4{
         top: 520px;
+    }
+    &:hover{
+        color: $general_color;
     }
 }
 .box_advantagesText{
