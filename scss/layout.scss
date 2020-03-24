@@ -87,13 +87,52 @@ $btnBorderColor: $primaryColor;
     }
 }
 @media screen and (max-width: 414px){
-    .container{
-        max-width: $container414;
-        width: 100%;
-        margin: 0 auto;
-        padding: 0 $gap;
+    .body-sf{
+        width: 414px;
+    }
+    .container-sf{
+        max-width: $container414 !important;
+        width: 100% !important;
+        margin: 0 auto !important;
+        padding: 0 $gap !important;
         // background-color: $yellow;
     
+    }
+    .ba-col-sf-12{
+        width: 100%;
+    }
+    .ba-col-sf-11{
+        width: 91.66%;
+    }
+    .ba-col-sf-10{
+        width: 83.3%;
+    }
+    .ba-col-sf-9{
+        width: 74.97%;
+    }
+    .ba-col-sf-8{
+        width: 66.62%;
+    }
+    .ba-col-sf-7{
+        width: 58.3%;
+    }
+    .ba-col-sf-6 {
+        width: 50%;
+    }
+    .ba-col-sf-5 {
+        width: 41.65%;
+    }
+    .ba-col-sf-4 {
+        width: 33.3%;
+    }
+    .ba-col-sf-3 {
+        width: 24.98%;
+    }
+    .ba-col-sf-2 {
+        width: 16.66%;
+    }
+    .ba-col-sf-1 {
+        width: 8.33%;
     }
     // ================================section_2 start================================
     .prioritets_text-sf{
@@ -105,9 +144,28 @@ $btnBorderColor: $primaryColor;
     .generals_prioritets_second-sf{
         margin-left: 0;
     }
-    // .title__inform_gen{
-    //     display: none;
-    // }
+    //=================================section_2 finish================================
+    //=================================section_3_start=================================
+    .button_for_price-sf{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .bnt_price-sf{
+        position: unset !important;
+    }
+    //=================================section_3_finish================================
+    //=================================section_4_start=================================
+    .section_4-sf{
+    height: 100% !important;
+    background-color:white !important;
+    position: relative;
+    // padding-bottom: 3rem ;
+    }
+    .title_section_4{
+        color: black !important;
+    }
+    //=================================section_4_finish================================
     .burger-menu_button {
         display: block !important;
     }
@@ -172,6 +230,86 @@ $btnBorderColor: $primaryColor;
     .container_boxRight_si{
         display: none !important;
     }
+    .container_1_si{
+    left: 0 !important;
+    right: 0 !important;
+    display: flex !important;
+    margin-left: 28px !important;
+    }
+    .container_withText_si{
+    width: 35.25rem !important;
+    margin-left: 0 !important;
+    font-size: 1rem !important;
+    line-height: 150% !important;
+    text-align: justify !important;
+    }
+    .position_si{
+        &_1{
+            top: 10rem;
+        }
+        &_2{
+            top: 19rem;
+        }
+        &_3{
+            top: 27rem;
+        }
+        &_4{
+            top: 36rem;
+        }
+    }
+    .section_3_header{
+        font-size: 1.5rem !important;
+    }
+    .slick-dotsSi{
+        right: 0;
+    }
+    // .burger-menu{
+
+    // }
+
+}
+@media screen and (min-width: 768px){
+    .ba-col-sI-12{
+        width: 100%;
+    }
+    .ba-col-si-11{
+        width: 91.66%;
+    }
+    .ba-col-si-10{
+        width: 83.3%;
+    }
+    .ba-col-si-9{
+        width: 74.97%;
+    }
+    .ba-col-si-8{
+        width: 66.62%;
+    }
+    .ba-col-si-7{
+        width: 58.3%;
+    }
+    .ba-col-sI-6 {
+        width: 50%;
+    }
+    .ba-col-si-5 {
+        width: 41.65%;
+    }
+    .ba-col-si-4 {
+        width: 33.3%;
+    }
+    .ba-col-si-3 {
+        width: 24.98%;
+    }
+    .ba-col-si-2 {
+        width: 16.66%;
+    }
+    .ba-col-si-1 {
+        width: 8.33%;
+    }
+    // =====================================section_3===============================================
+    .hidden-sI {
+        display: none !important;
+    }
+    // =================================section_4===================================================
     .container_1_si{
     left: 0 !important;
     right: 0 !important;

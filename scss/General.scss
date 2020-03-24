@@ -129,6 +129,7 @@ $white: #fff;
     z-index: 20;
     display: flex;
     flex-direction: column;
+    width: 87%;
     height: 100%;
     background-color: whitesmoke;
     overflow-y: auto;
@@ -186,24 +187,32 @@ $white: #fff;
 //====================End header=========================================
 //================Slider_general_start===================================
 .slick-dots li button:before {
-    font-family: 'slick';
-     font-size: 1.25rem;
-     line-height: 1.25rem;
-     position: absolute;
-     top: 0;
-     left: 0;
-     width: 1.25rem;
-     height: 1.25rem;
-     content: '•'; /* <-- Вот этот символ */
-     text-align: center;
-     opacity: .25;
-     color: black;
-     -webkit-font-smoothing: antialiased;
-     -moz-osx-font-smoothing: grayscale;
+    font-family: 'SF UI Display',"sans-serif";
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    content: '•'; /* <-- Вот этот символ */
+    text-align: center;
+    opacity: .25;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
    }
 
 //================Slider_general_finish==================================
 //=====================Start section_1===================================
+//=======================Mobile_version_start============================
+.mobile_general_title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+//=======================Mobile_version_finish===========================
 .slider{
     margin-left: 3.125rem;
 }
@@ -603,8 +612,13 @@ $white: #fff;
         color: $general_color;
         margin-left: .625rem;
         }
-
+    &_header-sf{
+        flex-flow: wrap;
+    }
 }
+// .section_3_header-sf{
+    
+// }
 .btn_services{
     width: 70px;
     height: 70px;
@@ -699,7 +713,7 @@ justify-content: center;
 }
 //====================================Finish Section_3===========================================//
 //====================================Start Section_4============================================//
-#section_4{
+.section_4{
     height: 100vh;
     margin-top: 1.875rem;
     background-color: black;

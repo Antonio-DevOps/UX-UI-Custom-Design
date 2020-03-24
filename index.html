@@ -14,7 +14,7 @@
         <link rel="shortcut icon" href="favicon.ico" type="img/x-icon"/>
         <title>General</title>
 </head>
-<body>
+<body class="body-sf">
     <header class="container nav">
         <div class="container-logo hidden-sm">
             <a href="#"><img src="img/logo.svg" alt="Logo"> 
@@ -60,8 +60,16 @@
             <div class="burger-menu_overlay"></div>
         </div>
     </header>
-    <div id="section_1" class="container hero">
-        <div class="container ba-row flex">
+    <div id="section_1" class="container hero container-sf">
+    <!-- =======================================Mobile_version==================== -->
+        <div class="mobile_general_title hidden-sI">
+            <h2 class="title_text1">РАЗРАБОТКА</h2>
+            <h2 class="title_text2">ПРОДАЮЩИХ САЙТОВ</h2>
+            <h2 class="title_text3">ДЛЯ БИЗНЕСА</h2>
+            <p class="title_sub" >Создание прибыльных продающих сайтов для бизнеса под ключ с гарантией результата не выходя из дома.</p>
+        </div>
+    <!-- ======================================End Mobile_version ======================================-->
+        <div class="container ba-row flex hidden-sf">
             <div class="ba-col-si-12 ba-col-md-12 ba-col-6">
                 <div class="ba-col-12 fade">
                     <div class="slider">
@@ -141,12 +149,12 @@
                     </div>
                 </div>
             </div>
-            <div class="ba-col-6 hidden-sm">
+            <div class="ba-col-6 hidden-si">
                 <div class="box"><img src="img/general pictr.svg" alt="general pictr"></div>
             </div>
         </div>
     </div>
-    <div id="section_2" class="container section_2" >
+    <div id="section_2" class="container container-sf section_2" >
         <div class="prioritets_text prioritets_text-sf">
             <h3 class="generals_prioritets">НАШИ КЛЮЧЕВЫЕ</h3>
             <h3 class="generals_prioritets_second generals_prioritets_second-sf">ПРЕИМУЩЕСТВА</h3>
@@ -257,8 +265,8 @@
                 </div>
         </div>
     </div>
-    <div id="section_3" class="container section_3">
-    <div class="section_3_header">
+    <div id="section_3" class="container section_3 container-sf">
+    <div class="section_3_header section_3_header-sf">
         <h3 class="section_3_text_general">КАКИЕ</h3>
         <h3 class="section_3_text_second">УСЛУГИ</h3>
         <h3 class="section_3_text_general">МЫ МОЖЕМ</h3>
@@ -344,7 +352,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="ba-col-3 hidden-sm">
+                <div class="ba-col-3 hidden-si">
                     <div class="box sub_section_services">
                         <div class="sub_section3">
                             <!-- ==================================================5_section======================= -->
@@ -399,12 +407,12 @@
                 </div>
             </div>
         </div>
-        <div class="button_for_price">
-            <a href="#" class="nav_order bnt_price">Узнать цену</a>
+        <div class="button_for_price button_for_price-sf">
+            <a href="#" class="nav_order bnt_price bnt_price-sf">Узнать цену</a>
         </div>
         
     </div>
-    <div id="section_4" class="container section_4">
+    <div id="section_4" class="container section_4 section_4-sf">
         <!-- ================================img_for_back======================================= -->
         <img class="img_background_section_4 img_background_section_4_sv" src="img/back_section3.svg" alt="img_background">
         <!-- ================================img_for_back======================================= -->
@@ -414,7 +422,39 @@
         <span class="title_second">РЕШИМ ВАШУ ЗАДАЧУ?</span>
     </div>
     </h3>
-    <div class="container">
+    <div class="mobile_container ba-col-sf-12 hidden-sI">
+        <ul class="accordion-menu hidden-sn">
+            <li>
+              <div class="dropdownlink">Исследование рынка</div>
+                <div class="box_contant submenuItems">
+                    <img  class="box_img" src="img/Group.svg" alt="icon">
+                    <p class="box_par">Выполняем коммерчиский мониторинг предпринимательской деятельности, конкурентов, потребителей и составляем рабочую концепцию проекта. 
+                    Создаем большую социальную квовлеченность и конверсию до 15%</p>
+                </div>
+            </li>
+            <li>
+                <div class="dropdownlink">Разработка дизайна</div>
+                  <div class="box_contant submenuItems">
+                    <img  class="box_img" src="img/Group.svg" alt="icon">
+                    <p class="box_par">60% времени работы над проектом мы закладываем в грамотное и профессиональное UI/UX-проектирование и дизайн интерфейса каждой страницы</p>
+                  </div>
+            </li>
+            <li>
+              <div class="dropdownlink">Верстка и адаптация</div>
+              <div class="box_contant submenuItems">
+                <img  class="box_img" src="img/Group.svg" alt="icon">
+                <p class="box_par">Мы шагаем в ногу со временем и адаптируем ваш сайт под существующие электронные гаджеты, что бы клиентам компании было удобно совершать покупки не только с компьютера, но и с мобильных устройств</p>
+              </div>
+            </li>
+            <li>
+                <div class="dropdownlink">Удобный интерфейс</div>
+                <div class="box_contant submenuItems">
+                  <img  class="box_img" src="img/Group.svg" alt="icon">
+                  <p class="box_par">Интерфейс вашего сайта будет продуман настолько, насколько это возможно. Каждый элемент находится на своем месте, клиентам компании будет удобно пользоваться сайтом.</p>
+                </div>
+            </li>
+    </div>
+    <div class="container hidden-sf">
         <div class="ba-row container_advantages">
             <div class="ba-col-6 box_general ba-col-si-12">
                 <div class="box container_boxAdvantages">
@@ -435,7 +475,7 @@
                     <span class=" box_advantagesText box_advantagesText_3">Верстка и адаптация</span>
                 </a>
                 <div class="container_withContant container_1_si position_si_3 hidden-sn">
-                    <span class="container_withText container_withText_si"> Мы шагаем в ногу со временем и адаптируем ваш сайт под существующие электронные гаджеты, что бы клиентам компании было удобно совершать покупки не только с компьютера, но и с мобильных устройств</span>
+                    <span class="container_withText container_withText_si">Мы шагаем в ногу со временем и адаптируем ваш сайт под существующие электронные гаджеты, что бы клиентам компании было удобно совершать покупки не только с компьютера, но и с мобильных устройств</span>
                  </div>
                 <a href="#" class="box_advantages box_advantages_btn4">
                     <span class="box_advantagesText box_advantagesText_4">Удобный интерфейс</span>
@@ -446,7 +486,7 @@
                 </div>
             </div>
             <div class="ba-col-6">
-                <div class="box container_boxRight container_boxRight_si">
+                <div class="box container_boxRight hidden-si">
                  <div class="container_withContant  container_withContant_sd container_withContant_sv container_1 container_1_sv">
                      <span class="container_boxs"></span>
                     <span class="container_withText"> 
