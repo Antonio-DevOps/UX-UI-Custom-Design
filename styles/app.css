@@ -167,6 +167,8 @@
     width: 16.66%; }
   .ba-col-si-1 {
     width: 8.33%; }
+  .img-si {
+    display: block !important; }
   .hidden-si {
     display: none !important; }
   .container_boxRight_si {
@@ -380,6 +382,56 @@
   .container_4 {
     top: 46.875rem !important; } }
 
+@media screen and (min-width: 1024px) {
+  .ba-col-12 {
+    width: 100%; }
+  .ba-col-11 {
+    width: 91.66%; }
+  .ba-col-10 {
+    width: 83.3%; }
+  .ba-col-9 {
+    width: 74.97%; }
+  .ba-col-8 {
+    width: 66.62%; }
+  .ba-col-7 {
+    width: 58.3%; }
+  .ba-col-6-sj {
+    width: 50%; }
+  .ba-col-5 {
+    width: 41.65%; }
+  .ba-col-4 {
+    width: 33.3%; }
+  .ba-col-3 {
+    width: 24.98%; }
+  .ba-col-2 {
+    width: 16.66%; }
+  .ba-col-1 {
+    width: 8.33%; }
+  .hidden-sM {
+    display: none !important; }
+  .content_container {
+    height: 15.375rem !important; }
+  .button_for_price {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .bnt_price {
+    position: unset !important; }
+  .container_1 {
+    top: 19.4375rem !important; }
+  .container_withContant {
+    right: 0rem !important; }
+  .container_2 {
+    top: 29.25rem; }
+  .container_1 {
+    top: 19.4375rem !important; }
+  .container_2 {
+    top: 29.25rem !important; }
+  .container_3 {
+    top: 37.5625rem !important; }
+  .container_4 {
+    top: 46.875rem !important; } }
+
 @media screen and (max-width: 1280px) {
   a {
     color: greenyellow; }
@@ -434,6 +486,10 @@
     margin-top: 20rem; }
   .remGen {
     margin-top: 30rem; }
+  .box-sX {
+    width: 530px; }
+  .img_box-sX {
+    width: 40%; }
   .hidden-sX {
     display: none; } }
 
@@ -1113,8 +1169,6 @@ video {
   right: 50%; }
 
 .servicelist_si {
-  position: absolute;
-  left: 0;
   font-family: Museo Sans Cyrl;
   font-size: .875rem;
   line-height: 1.0625rem;

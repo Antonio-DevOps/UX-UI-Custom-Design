@@ -222,6 +222,9 @@ $btnBorderColor: $primaryColor;
     .ba-col-si-1 {
         width: 8.33%;
     }
+    .img-si{
+        display: block !important;
+    }
     // =====================================section_3===============================================
     .hidden-si {
         display: none !important;
@@ -553,6 +556,87 @@ $btnBorderColor: $primaryColor;
 }
 //==============================================section4_finish===========================================
 }
+@media screen and (min-width: 1024px){
+    .ba-col-12{
+        width: 100%;
+    }
+    .ba-col-11{
+        width: 91.66%;
+    }
+    .ba-col-10{
+        width: 83.3%;
+    }
+    .ba-col-9{
+        width: 74.97%;
+    }
+    .ba-col-8{
+        width: 66.62%;
+    }
+    .ba-col-7{
+        width: 58.3%;
+    }
+    .ba-col-6-sj {
+        width: 50%;
+    }
+    .ba-col-5 {
+        width: 41.65%;
+    }
+    .ba-col-4 {
+        width: 33.3%;
+    }
+    .ba-col-3 {
+        width: 24.98%;
+    }
+    .ba-col-2 {
+        width: 16.66%;
+    }
+    .ba-col-1 {
+        width: 8.33%;
+    }
+    .hidden-sM{
+        display: none !important;
+    }
+//==============================================section_2=================================================
+.content_container{
+    height: 15.375rem !important;
+}
+//==============================================section_2_finish==========================================
+//==============================================section_3_start===========================================
+.button_for_price{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bnt_price {
+    position: unset !important;
+}
+//==============================================section_3_finish==========================================
+//==============================================section_4_start_==========================================
+.container_1 {
+    top: 19.4375rem !important;
+}
+.container_withContant{
+    right: 0rem !important;
+}
+.container_2 {
+    top: 29.25rem;
+}
+.container{
+    &_1{
+    top: 19.4375rem !important;
+    }
+    &_2{
+    top: 29.25rem !important;
+    }
+    &_3{
+    top: 37.5625rem !important;
+    }
+    &_4{
+    top: 46.875rem !important; 
+    }
+}
+//==============================================section4_finish===========================================
+}
 @media screen and (max-width: 1280px){
     a{
         color: greenyellow;
@@ -642,6 +726,12 @@ $btnBorderColor: $primaryColor;
     }
     .remGen{
         margin-top: 30rem;
+    }
+    .box-sX{
+        width: 530px;
+    }
+    .img_box-sX{
+        width: 40%;
     }
     .hidden-sX {
         display: none;
